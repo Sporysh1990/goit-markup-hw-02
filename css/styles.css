@@ -16,7 +16,7 @@ color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
     font-size: 18px; 
     font-weight: 700;
-    line-height: 1.2; 
+    line-height: 1.17; 
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -25,7 +25,7 @@ color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -36,12 +36,15 @@ color: #4D5AE5;
     line-height: 1.5;
     letter-spacing: 0.02em;  
 }
-.nav-link:active{
+.nav-link:active,
+.nav-link:hover,
+.nav-link:focus{
     color: #404BBF;
 }
 .link-contact{
     color: #434455;
     font-size: 16px;
+    font-style: normal;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -52,9 +55,9 @@ color: #4D5AE5;
 
 }
 body{
-    color: #2E2F42;
+    color: #434455;
     background-color: #FFF;
-    font-family: 'Roboto', 'Montserrat', 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
 }
 .section-hero{
@@ -65,10 +68,10 @@ body{
         text-align: center;
         font-size: 56px;
         font-weight: 700;
-        line-height: 1.1;
+        line-height: 1.07;
         letter-spacing: 0.02em;
 }
-button{
+.input{
         color:  #FFF;
         background-color: #4D5AE5;
         font-family: 'Roboto',sans-serif;
@@ -78,18 +81,20 @@ button{
         line-height: 1.5;
         letter-spacing: 0.04em;
 }
-button:hover,
-button:focus{
+.input:hover,
+.input:focus{
     background: #404BBF;
 }
 .title-tertiary{
+    color: #2E2F42;
+    background-color: #FFFFFF;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
 .text{
-        color: #434455;
+        background-color: #FFFFFF;
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
@@ -99,13 +104,15 @@ button:focus{
     background-color: #F4F4FD;
 }
 .title-secondary{
+    color: #2E2F42;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
+
 .page-footer{
     background-color: #2E2F42;
 }
@@ -121,7 +128,7 @@ button:focus{
     font-family: 'Raleway',sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
